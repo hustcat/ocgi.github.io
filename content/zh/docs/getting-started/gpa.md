@@ -37,10 +37,6 @@ spec:
         name: default
         portPolicy: Static
         protocol: UDP
-      sdkServer:
-        grpcPort: 9020
-        httpPort: 9021
-        logLevel: Info
       template:
         spec:
           containers:
